@@ -3,3 +3,4 @@ mysettings.py
 *.pyc
 __pycache__
 db.sqlite3
+migrations
