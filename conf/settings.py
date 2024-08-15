@@ -1,11 +1,11 @@
 from pathlib import Path
-from .mysettings import xSECRET, xDATABASE
+from .mysettings import xSECRET, xDATABASE, xDEBUG
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = xSECRET
-DEBUG = True
+DEBUG = xDEBUG
 
 ALLOWED_HOSTS = []
 
